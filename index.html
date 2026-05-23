@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'ANDRIANTSAFIDY Lalaina Elite, étudiant développeur web passionné par les nouvelles technologies.">
+  <title>Elite - Développeur Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header id="header">
+    <nav class="navbar">
+      <a href="#hero" class="logo">.EL</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-item">À propos</a></li>
+        <li><a href="#skills" class="nav-item">Compétences</a></li>
+        <li><a href="#projects" class="nav-item">Projets</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-btn" id="theme-toggle" title="Changer de thème">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="grid-pattern"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-badge">👋 Bonjour, je suis</span>
+        <h1 class="hero-title">
+          Elite<br>
+          <span class="highlight">Lalaina</span>
+        </h1>
+        <p class="hero-sub">Étudiant développeur web <span class="dot">·</span> IESSI L3</p>
+        <p class="hero-desc">Passionné par la création d'interfaces web modernes, simples et efficaces. Je transforme des idées en expériences numériques.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Voir mes projets <i class="fas fa-arrow-right"></i></a>
+          <a href="#about" class="btn btn-outline">Découvrir mon profil</a>
+        </div>
+        <div class="hero-scroll">
+          <span>Défiler</span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+      <div class="hero-img-wrapper">
+        <div class="img-ring"></div>
+        <div class="img-ring-2"></div>
+        <div class="cercle-image">
+          <img src="images/profil.jpg" alt="Elite - Photo de profil">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Qui suis-je ?</span>
+        <h2 class="section-title">À propos de moi</h2>
+        <p class="section-sub">Passionné par le développement web moderne</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Je suis <strong>ANDRIANTSAFIDY Lalaina Elite</strong>, étudiant en L3 Informatique à l'Université de l'Itasy. Passionné par le développement web et les nouvelles technologies, j'aime créer des interfaces modernes, simples et efficaces.</p>
+          <p>Mon objectif est d'acquérir des compétences solides en développement full-stack pour concevoir des expériences utilisateur de qualité.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">✨</span>
+              <div>
+                <strong>Qualité</strong>
+                <p>Code propre et maintenable</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🚀</span>
+              <div>
+                <strong>Innovation</strong>
+                <p>Adoption des meilleures pratiques</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">📈</span>
+              <div>
+                <strong>Amélioration continue</strong>
+                <p>Apprentissage constant</p>
+              </div>
+            </div>
+          </div>
+          <a href="docs/monCV.pdf" download class="btn btn-primary" style="margin-top:2rem">
+            <i class="fas fa-download"></i> Télécharger mon CV
+          </a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+            <strong>L3 en Informatique</strong>
+            <span>Université de l'Itasy</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-code"></i></div>
+            <strong>Développement Moderne</strong>
+            <span>Technologies Web actuelles</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-lightbulb"></i></div>
+            <strong>Innovation</strong>
+            <span>Approche créative</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+            <strong>Performance</strong>
+            <span>Apps rapides et efficaces</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technologies</span>
+        <h2 class="section-title">Mes Compétences</h2>
+        <p class="section-sub">Technologies et outils que je maîtrise</p>
+      </div>
+      <div class="skills-categories">
+        <div class="skill-category">
+          <h3 class="cat-title"><i class="fas fa-laptop-code"></i> Front-End</h3>
+          <div class="skills-list">
+            <div class="skill-item" data-level="55">
+              <div class="skill-info">
+                <img src="images/html.png" alt="HTML"> <span>HTML5</span>
+                <span class="skill-pct">55%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:55%"></div></div>
+            </div>
+            <div class="skill-item" data-level="50">
+              <div class="skill-info">
+                <img src="images/css.png" alt="CSS"> <span>CSS3</span>
+                <span class="skill-pct">50%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:50%"></div></div>
+            </div>
+            <div class="skill-item" data-level="20">
+              <div class="skill-info">
+                <img src="images/javascript.png" alt="JavaScript"> <span>JavaScript</span>
+                <span class="skill-pct">20%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:20%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="cat-title"><i class="fas fa-server"></i> Back-End & Autres</h3>
+          <div class="skills-list">
+            <div class="skill-item" data-level="30">
+              <div class="skill-info">
+                <img src="images/python.png" alt="Python"> <span>Python</span>
+                <span class="skill-pct">30%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:30%"></div></div>
+            </div>
+            <div class="skill-item" data-level="12">
+              <div class="skill-info">
+                <img src="images/java.png" alt="Java"> <span>Java</span>
+                <span class="skill-pct">12%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:12%"></div></div>
+            </div>
+            <div class="skill-item" data-level="30">
+              <div class="skill-info">
+                <img src="images/php.png" alt="PHP"> <span>PHP</span>
+                <span class="skill-pct">30%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:30%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Soft skills tags -->
+      <div class="soft-skills">
+        <h3>Soft Skills</h3>
+        <div class="tags">
+          <span class="tag">Résolution de problèmes</span>
+          <span class="tag">Travail en équipe</span>
+          <span class="tag">Créativité</span>
+          <span class="tag">Adaptabilité</span>
+          <span class="tag">Curiosité</span>
+          <span class="tag">Apprentissage continu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Réalisations</span>
+        <h2 class="section-title">Mes Projets</h2>
+        <p class="section-sub">Découvrez mes réalisations et projets</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Elite1711/weather-dashboard" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="https://elite1711.github.io/weather-dashboard/" title="Voir le projet"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Weather-dashboard</h3>
+          <p>Un dashboard intelligent temps réel utilisant plusieurs APIs REST, la géolocalisation et JavaScript asynchrone pour centraliser météo, actualités et informations utilisateur dans une interface moderne responsive.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <span class="project-year">2025</span>
+        </div>
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Voir le projet"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Projet 2</h3>
+          <p>Description de votre deuxième projet. Modifiez ce texte avec les détails de votre réalisation.</p>
+          <div class="project-tags">
+            <span>Python</span><span>PHP</span>
+          </div>
+          <span class="project-year">2025</span>
+        </div>
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="#" title="Code source"><i class="fab fa-github"></i></a>
+              <a href="#" title="Voir le projet"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Projet 3</h3>
+          <p>Description de votre troisième projet. Modifiez ce texte avec les détails de votre réalisation.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>Java</span>
+          </div>
+          <span class="project-year">2025</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Discutons</span>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-sub">N'hésitez pas à me contacter pour discuter de vos projets</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Restons en contact</h3>
+          <p>Je suis disponible pour des projets, collaborations ou simplement pour échanger sur le développement web.</p>
+          <div class="contact-items">
+            <a href="mailto:elitelalaina@gmail.com" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>elitelalaina@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+261332845985" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Téléphone</strong>
+                <span>+261 33 284 5985</span>
+              </div>
+            </a>
+            <a href="tel:+261383450494" class="contact-item">
+              <div class="ci-icon"><i class="fas fa-mobile-alt"></i></div>
+              <div>
+                <strong>Mobile</strong>
+                <span>+261 38 345 0494</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Localisation</strong>
+                <span>Soamahamanina ,Itasy , Madagascar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="votre@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" placeholder="Sujet du message">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Envoyer le message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">.EL</span>
+        <p>Développeur Web passionné par la création d'expériences modernes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 ANDRIANTSAFIDY Lalaina Elite · Développé avec ❤️</p>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="back-top" title="Retour en haut">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
